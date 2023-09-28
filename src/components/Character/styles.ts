@@ -10,3 +10,12 @@ export const Container = styled.div<{size: number, left: number, top: number, si
   background-position: 0px ${props => props.sidePos}px;
 `;
 
+export const NameBox = styled.div`
+    background-color: #000;
+    padding: 3px;
+    border-radius: 5px;
+    position: absolute;
+    font-size: 10px;
+    text-align: center;
+    margin-top: -20px;
+`;
